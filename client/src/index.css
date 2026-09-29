@@ -1,0 +1,54 @@
+:root {
+  --shopez-ink: #17242e;
+  --shopez-accent: #1a7f5a;
+  --shopez-accent-light: #e6f4ee;
+  --shopez-muted: #6b7a83;
+}
+
+body {
+  background-color: #f7f8f7;
+  color: var(--shopez-ink);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.badge-discount {
+  background-color: var(--shopez-accent);
+  color: #fff;
+}
+
+.price-original {
+  text-decoration: line-through;
+  color: var(--shopez-muted);
+  font-size: 0.9rem;
+  margin-right: 6px;
+}
+
+.price-final {
+  color: var(--shopez-accent);
+  font-weight: 700;
+}
+
+.star {
+  color: #d9a72c;
+}
+
+.product-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.btn-shopez {
+  background-color: var(--shopez-ink);
+  color: #fff;
+  border: none;
+}
+
+.btn-shopez:hover {
+  background-color: #0e171e;
+  color: #fff;
+}
